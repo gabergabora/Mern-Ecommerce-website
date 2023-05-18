@@ -8,7 +8,7 @@ const reviewSchema = mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref : 'User' //relation betwen the review and the user
+        ref : 'User' //relation betwen the review and the user             
     },
 },{ 
     timestamps: true
